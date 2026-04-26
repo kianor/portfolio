@@ -1,0 +1,89 @@
+/* imports css */
+@import url('reset.css');
+@import url('fonts.css');
+
+/* Kleuren voor de dark mode stijl */
+body {
+    background-color: #0A192F;
+    color: #CCD6F6;
+}
+
+a {
+    color: #00D4FF;
+}
+
+h1, h2, h3 {
+    color: #00D4FF;
+}
+
+/* Navbar kleuren */
+.navbar-brand {
+    color: #00D4FF !important;
+}
+
+.nav-link {
+    color: #CCD6F6 !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #00D4FF !important;
+}
+
+/* Carousel afbeeldingen */
+.carousel-item img {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Formulier velden dark stijl */
+.form-control {
+    background-color: #112240;
+    border-color: #1d3a5c;
+    color: #CCD6F6;
+}
+
+.form-control:focus {
+    background-color: #112240;
+    color: #CCD6F6;
+    border-color: #00D4FF;
+}
+
+/* Knop stijl */
+.btn-info {
+    background-color: #00D4FF;
+    border-color: #00D4FF;
+    color: #0A192F;
+}
+
+.btn-outline-info {
+    color: #00D4FF;
+    border-color: #00D4FF;
+}
+
+.btn-outline-info:hover {
+    background-color: #00D4FF;
+    color: #0A192F;
+}
+
+/* Footer */
+footer {
+    background-color: #0A192F;
+    border-top: 1px solid #112240;
+}
+
+/* Afbeeldingen */
+.img-fixed {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; 
+    border-top-left-radius: 0.25rem; 
+    border-top-right-radius: 0.25rem; 
+}
+
+.img-large {
+    width: 100%; 
+    height: 550px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}

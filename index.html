@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiano | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="index.html">&lt;Kiano /&gt;</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero sectie met carousel -->
+    <section>
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/sfeer-serverruimte.jpg" class="d-block w-100" alt="Serverruimte">
+                    <div class="carousel-caption">
+                        <h1>Hallo, ik ben Kiano!</h1>
+                        <p>Student Systemen &amp; Netwerkbeheer</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/sfeer-netwerk.jpg" class="d-block w-100" alt="Netwerkkabels">
+                    <div class="carousel-caption">
+                        <h1>Hallo, ik ben Kiano!</h1>
+                        <p>Student Systemen &amp; Netwerkbeheer</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/sfeer-code.jpg" class="d-block w-100" alt="Code op scherm">
+                    <div class="carousel-caption">
+                        <h1>Hallo, ik ben Kiano!</h1>
+                        <p>Student Systemen &amp; Netwerkbeheer</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Over mij sectie -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Over mij</h2>
+        <div class="row">
+            <!-- Aside met foto -->
+            <aside class="col-md-4 order-md-2 text-center mb-3">
+                <img src="assets/images/profiel-kiano.jpg" class="img-fluid rounded" alt="Foto van Kiano">
+            </aside>
+            <!-- Main tekst -->
+            <main class="col-md-8 order-md-1">
+                <p>Als student Systemen en Netwerkbeheer aan AP Hogeschool Antwerpen ben ik gepassioneerd door de wereld van IT-infrastructuur, netwerken en cybersecurity. Ik geloof sterk in het belang van betrouwbare, veilige en goed onderhouden systemen als ruggengraat van elke moderne organisatie.</p>
+                <p>Tijdens mijn opleiding werk ik aan diverse projecten waarbij ik hands-on ervaring opdoe met serverconfiguratie, netwerktopologieën, virtualisatie en webontwikkeling. Ik ben altijd op zoek naar nieuwe technologieën om te verkennen en problemen op te lossen.</p>
+                <p>In deze portfolio vind je een overzicht van mijn projecten en vaardigheden. Neem gerust contact op als je vragen hebt of als je op zoek bent naar een gemotiveerde IT-professional.</p>
+            </main>
+        </div>
+    </section>
+
+    <!-- Recente projecten preview -->
+    <section class="container mb-5">
+        <h2 class="text-center mb-4">Recente projecten</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card bg-dark text-light border-secondary">
+                    <img src="assets/images/dutchcraft-home.jpg" class="card-img-top img-fluid img-fixed" alt="DutchCraft SMP">
+                    <div class="card-body">
+                        <h5 class="card-title">DutchCraft SMP</h5>
+                        <p class="card-text">Nederlandse Minecraft server met website, economie en community.</p>
+                        <a href="./Projecten/dutchcraft.html" class="btn btn-outline-info btn-sm">Bekijk project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card bg-dark text-light border-secondary">
+                    <img src="assets/images/youtube.png" class="card-img-top img-fluid img-fixed" alt="YouTube Kanaal">
+                    <div class="card-body">
+                        <h5 class="card-title">YouTube Kanaal</h5>
+                        <p class="card-text">Gaming content met 3,7K abonnees en 307 video's.</p>
+                        <a href="./Projecten/youtube.html" class="btn btn-outline-info btn-sm">Bekijk project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card bg-dark text-light border-secondary">
+                    <img src="assets/images/portfolio.png" class="card-img-top img-fluid img-fixed" alt="Portfolio Website">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">Deze portfolio website heb ik ontwikkeld om mijn projecten, vaardigheden en ervaring overzichtelijk te presenteren.</p>
+                        <a href="./Projecten/portfolio.html" class="btn btn-outline-info btn-sm">Bekijk project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <a href="portfolio.html" class="btn btn-outline-info">Bekijk alle projecten</a>
+        </div>
+    </section>
+
+    <!-- Bronvermelding -->
+    <section class="container mb-4">
+        <div class="card bg-dark border-secondary">
+            <div class="card-body">
+                <h5 class="card-title">Bronvermelding afbeeldingen</h5>
+                <ul class="mb-0 small text-secondary">
+                    <li>Sfeerbeeld 1 (Serverruimte): <a href="https://unsplash.com/photos/M5tzZtFCOfs" class="text-info">Taylor Vick</a> via Unsplash</li>
+                    <li>Sfeerbeeld 2 (Netwerkkabels): <a href="https://unsplash.com/photos/40XgDxBfYXM" class="text-info">Jordan Harrison</a> via Unsplash</li>
+                    <li>Sfeerbeeld 3 (Code op scherm): <a href="https://unsplash.com/photos/xrVDYZRGdw4" class="text-info">Émile Perron</a> via Unsplash</li>
+                    <li>Profielfoto: eigen foto via LinkedIn</li>
+                    <li>Screenshots DutchCraft &amp; YouTube: eigen screenshots</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-2">
+                <a href="https://github.com/kianor/" class="text-light me-2"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/kiano-rits-533765244/" class="text-light me-2"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:kiano.rits@gmail.com" class="text-light"><i class="bi bi-envelope"></i></a>
+            </p>
+            <p class="text-secondary small">&copy; 2025 Kiano | AP Hogeschool Antwerpen</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

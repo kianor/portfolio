@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Kiano</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="index.html">&lt;Kiano /&gt;</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Neem contact op</h2>
+
+        <div class="row">
+            <!-- Aside met contactgegevens (op mobile eerst) -->
+            <aside class="col-md-4 order-md-2 mb-4">
+                <div class="card bg-dark text-light border-secondary">
+                    <div class="card-body">
+                        <h3 class="card-title">Contactgegevens</h3>
+                        <p><i class="bi bi-person me-2"></i>Kiano</p>
+                        <p><i class="bi bi-envelope me-2"></i>kiano.rits@gmail.com</p>
+                        <p><i class="bi bi-geo-alt me-2"></i>Antwerpen, België</p>
+                        <p><i class="bi bi-building me-2"></i>AP Hogeschool Antwerpen</p>
+                        <p><i class="bi bi-mortarboard me-2"></i>Graduaat SNB</p>
+
+                        <h5 class="mt-4">Sociale media</h5>
+                        <p><a href="https://github.com/kianor/" class="text-info"><i class="bi bi-github me-2"></i>GitHub</a></p>
+                        <p><a href="https://www.linkedin.com/in/kiano-rits-533765244/" class="text-info"><i class="bi bi-linkedin me-2"></i>LinkedIn</a></p>
+                        <p><a href="https://youtube.com/@kianors" class="text-info"><i class="bi bi-youtube me-2"></i>YouTube</a></p>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Contactformulier -->
+            <div class="col-md-8 order-md-1">
+                <div class="card bg-dark text-light border-secondary">
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="naam" class="form-label">Naam</label>
+                                <input type="text" class="form-control" id="naam" placeholder="Jouw naam">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mailadres</label>
+                                <input type="email" class="form-control" id="email" placeholder="jouw@email.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="onderwerp" class="form-label">Onderwerp</label>
+                                <input type="text" class="form-control" id="onderwerp" placeholder="Waar gaat het over?">
+                            </div>
+                            <div class="mb-3">
+                                <label for="bericht" class="form-label">Bericht</label>
+                                <textarea class="form-control" id="bericht" rows="5" placeholder="Typ je bericht hier..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-info">Verstuur</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-2">
+                <a href="https://github.com/kianor/" class="text-light me-2"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/kiano-rits-533765244/" class="text-light me-2"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:kiano.rits@gmail.com" class="text-light"><i class="bi bi-envelope"></i></a>
+            </p>
+            <p class="text-secondary small">&copy; 2025 Kiano | AP Hogeschool Antwerpen</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
