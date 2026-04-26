@@ -4,12 +4,12 @@ Persoonlijke portfolio-website gemaakt voor het olod **Webtechnologie intro S2**
 
 ## Inhoud
 
-- `index.html` — homepagina met hero-carousel, "Over mij" en recente projecten
-- `portfolio.html` — overzicht van zes projecten
-- `Projecten/dutchcraft.html`, `Projecten/youtube.html`, `Projecten/portfolio.html` — detailpagina's
-- `contact.html` — contactformulier
-- `css/` — `reset.css`, `fonts.css`, `style.css`
-- `assets/images/` — afbeeldingen
+- `index.html` homepagina met hero-carousel, "Over mij" en recente projecten
+- `portfolio.html` overzicht van zes projecten
+- `Projecten/dutchcraft.html`, `Projecten/youtube.html`, `Projecten/portfolio.html` detailpagina's
+- `contact.html` contactformulier
+- `css/` `reset.css`, `fonts.css`, `style.css`
+- `assets/images/` afbeeldingen
 
 ## Technologie
 
